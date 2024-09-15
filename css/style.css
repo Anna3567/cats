@@ -163,7 +163,10 @@
   padding: 10px;
   font-size: 16px;
   border: none;
-
+  cursor: pointer;
+}
+.button:hover{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .button2 {
@@ -179,8 +182,6 @@
   align-items: center;
   left: 190px;
   font-size: 18px;
-  
-
 }
 
 .button2::after {
